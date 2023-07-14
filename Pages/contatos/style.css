@@ -1,23 +1,24 @@
 /*Preset CSS*/
-* {margin:0; 
-    padding:0; 
-    list-style:none; 
-    vertical-align:baseline;
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
     border: 0;
     font-size: 100%;
     font: inherit;
     font-family: 'Gudea', sans-serif;
-    text-decoration: none;
     color: #17052D;
+    text-decoration: none;
 }
 
 /*Cor de fundo Light Mode*/
-body{
+body {
     background-color: whitesmoke;
 }
 
 /*Barra de navegação que irá em todas as páginas*/
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin-right: 0;
@@ -29,36 +30,44 @@ nav{
     font-size: 24px;
 }
 
-.container_nav{
-display: flex;
+.container_nav {
+    display: flex;
 }
 
-#nav_contato{
+#nav_contato {
     margin-right: 2.5rem;
 }
-#nav_habilide{
+
+#nav_habilide {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
 }
-#nav_projetos{
-    margin-left: 2.5rem;
-}
-#nav_sobre{
+
+#nav_projetos {
     margin-left: 2.5rem;
 }
 
-/*Conteúdo especifico para cada página*/
-.conteudo_home{
-    margin-top: 5%;
-    padding: 5rem;
+#nav_sobre {
+    margin-left: 2.5rem;
+}
+
+/*Código página de Contatos*/
+
+.texto_principal {
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+}
+
+main {
     display: flex;
     justify-content: space-between;
+    padding-left: 20rem;
+    padding-right: 15rem;
 }
 
-.texto_principal{
-    font-size: 64px;
-    max-width: 474px;
-}
-.texto_secundario{
+.texto_contatos {
     font-size: 40px;
 }
